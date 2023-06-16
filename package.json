@@ -1,0 +1,10 @@
+{
+  "name": "login-tailwind",
+  "version": "1.0.0",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build styles.css -o output.css"
+  }
+}
