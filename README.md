@@ -11,7 +11,8 @@
 
 ### Como ficou o projeto:
 
-![Alt text](image.png)
+![image](https://github.com/Gustavonn07/Login-Tailwind/assets/84361085/0edb03e5-92bb-4af2-b3f9-746ad85e7bf4)
+
 
 ### Considerações finais:
 Achei bem flexivel a biblioteca, possui uma excelente documentação, fácil acesso e muitas opções de estilos diferentes.
