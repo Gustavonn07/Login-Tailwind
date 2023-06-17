@@ -2,3 +2,30 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.backgroundbd {
+    @apply w-full h-screen bg-gradient-to-br from-purple-400 from-30% via-pink-400 via-60% to-pink-500;
+}
+
+.config-center {
+    @apply flex justify-center items-center;
+}
+
+.div-size {
+    @apply w-1/2 h-full;
+}
+
+.btn-primary {
+    @apply w-2/6 h-10 border bg-blue-500 shadow-2xl rounded-2xl text-white font-semibold duration-150  
+}
+
+.btn-primary-hover {
+    @apply hover:duration-150 hover:bg-blue-700
+}
+
+.btn-secondary {
+    @apply w-auto p-1 h-auto border shadow-2xl rounded-xl font-semibold duration-150
+}
+
+.btn-secondary-hover {
+    @apply hover:duration-150
+}
