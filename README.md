@@ -2,7 +2,7 @@
 
 ### Objetivo: Praticar o uso de Tailwind pela 1° vez
 1. Consegui usar Tailwind com uma certa facilidade, exceto pela parte de position (tenho que treinar mais).
-2. Aprendi como criar classes no tailwind usando um arquivo `style.css` e linkando ele no arquivo `output`, importando os dados necessários e utilizando @apply
+2. Aprendi como criar classes no tailwind usando um arquivo `style.css` e linkando ele no arquivo `output.css`, importando os dados necessários e utilizando @apply
 
 ### O que Praticar:
 1. Uso de positions.
