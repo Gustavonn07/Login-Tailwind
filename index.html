@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/output.css">
-    <title>Document</title>
+    <title>Login Tailwind</title>
 </head>
-<body>
-    <button class="btn"> ass</button>
+<body class="backgroundbd config-center">
+    <main class="config-center w-4/6 h-3/4 bg-indigo-100 shadow-2xl rounded-xl">
+        <div class="div-size flex flex-col rounded-s-xl bg-indigo-50">
+            <h1 class="text-gray-800 text-4xl mt-16 mb-5 font-bold ml-8">Login</h1>
+            <p class="ml-8 mb-4">Don't have an account? <a href="#" class="text-blue-700">Create your account</a>, it takes <br> less than a minute.</p>
+
+            <form method="post" class="flex flex-col gap-y-3">
+                <div class="flex flex-col pl-8 gap-y-2">
+                    <label for="name" class="text-gray-500 text-sm">Username</label>
+                    <input type="text" name="name" id="name" class="w-5/6 indent-3 bg-indigo-50 border-b-2 border-indigo-200" required>
+                </div>
+                <div class="flex flex-col ml-8 gap-y-2">
+                    <label for="pass" class="text-gray-500 text-sm">Password</label>
+                    <input type="password" name="pass" id="pass" class="w-5/6 indent-3 bg-indigo-50 border-b-2 border-indigo-200" required>
+                </div>
+                <div class="flex ml-8 gap-x-40 w-full">
+                    <div>
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="text-gray-500">Forgot Password?</a>
+                </div>
+                <button class="btn-primary btn-primary-hover ml-8 mb-8">Login</button>
+                <div class="ml-8 flex w-full items-center gap-36">
+                    <h3 class="text-gray-700 text-lg">Or login with:</h3>
+                    <div>
+                        <button class="btn-secondary bg-blue-300 text-white hover:bg-blue-500 btn-secondary-hover">Facebook</button>
+                        <button class="btn-secondary bg-red-300 text-white hover:bg-red-500 btn-secondary-hover">Instagram</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="div-size rounded-e-xl bg-red-400">
+
+        </div>
+    </main>
 </body>
 </html>
